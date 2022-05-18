@@ -28,5 +28,6 @@ char *_strstr(char *haystack, const char *needle);
 int _strlen(char *str);
 int _putchar(char c);
 void _puts(char *str);
+char **get_tokens(char *line, char *delimiters);
 
 #endif
