@@ -4,4 +4,4 @@
 
 ### Brief description
 
-A simple shell program developed by | [Binael] (https://github.com/binael) | [Favour] (https://github.com/mech-droid) | as a collaborative project from ALX
+A simple shell program developed by | [Binael](https://github.com/binael) | [Favour](https://github.com/mech-droid) | as a collaborative project from ALX
