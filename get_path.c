@@ -74,6 +74,6 @@ char *_which(char *b_command)
 		my_token++;
 	}
 
-	free(token);
+	free(my_token);
 	return (NULL);
 }

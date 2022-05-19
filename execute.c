@@ -14,7 +14,7 @@ int exec_built_in(char *str, char **env)
 
 	built_ins my_func[] = {
 		{"env", print_env},
-		{"exit", _exit},
+		{"exit", _exit_program},
 		{NULL, NULL}
 	};
 
@@ -22,7 +22,7 @@ int exec_built_in(char *str, char **env)
 	{
 		if (strcmp(str, my_func[i].command) == 0)
 		{
-			return (my_func[i].func(env));
+			return (my_func[i].f_ptr(env));
 		}
 	}
 

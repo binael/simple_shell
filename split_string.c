@@ -15,7 +15,7 @@ char **get_tokens(char *line, char *delimiters)
 
 	int position = 0, buffer = 24;
 
-	token = malloc(sizof(char *) * buffer);
+	token = malloc(sizeof(char *) * buffer);
 
 	if (token == NULL)
 		exit(EXIT_FAILURE);

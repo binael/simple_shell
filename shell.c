@@ -11,5 +11,12 @@
 
 int main(int ac __attribute__((unused)), char **av, char **environ)
 {
+	while (*av && *environ)
+	{
+		printf("%s\n%s\n", *av, *environ);
+		av++;
+		environ++;
+	}
+
 	return (0);
 }

@@ -23,12 +23,12 @@ int print_env(char **environ)
 }
 
 /**
- * _exit - exit the program
+ * _exit_program - exit the program
  * @environ: environment variable
  *
  * Return: 1
  */
-int _exit(char **environ)
+int _exit_program(char **environ)
 {
 	(void)environ;
 
